@@ -26,9 +26,9 @@ class App extends Component {
         }
     }
 
-    componentDidMount() {
-        this.GetCatImage();
-    }
+    // componentDidMount() {
+    //     this.GetCatImage();
+    // }
 
 
     GetCatImage = () => {
