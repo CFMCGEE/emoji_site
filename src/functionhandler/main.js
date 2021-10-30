@@ -1,3 +1,5 @@
+// import React, { useState, useEffect } from "react";
+
 export function fetchCatImage() {
     return fetch('https://aws.random.cat/meow').then(response => response.json());
     //{"file":"https:\/\/purr.objects-us-east-1.dream.io\/i\/GQXOl.png"}

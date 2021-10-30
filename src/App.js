@@ -3,17 +3,14 @@ import React, { Component } from 'react';
 import Homepage from './pages/homepage';
 import CatImage from './pages/randomcatimage'
 import DogImage from './pages/randomdogimage';
-// eslint-disable-next-line
 import FunnyImage from './pages/memetemplate';
+
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { Nav } from 'react-bootstrap';
 // eslint-disable-next-line 
 import { Route, Link } from 'react-router-dom';
 
-import { fetchCatImage } from './functionhandler/main';
-import { fetchDogImage } from './functionhandler/main';
-import { fetchMemeTemplate } from './functionhandler/main';
-
+import { fetchCatImage, fetchDogImage, fetchMemeTemplate } from './functionhandler/main';
 
 
 class App extends Component {
@@ -26,9 +23,9 @@ class App extends Component {
         }
     }
 
-    // componentDidMount() {
-    //     this.GetCatImage();
-    // }
+        componentDidMount() {
+        this.GetCatImage();
+    }
 
 
     GetCatImage = () => {
@@ -59,6 +56,7 @@ class App extends Component {
 
         })
     }
+
 
     render() {
         return ( 
