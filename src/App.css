@@ -1,0 +1,39 @@
+.theCatImage {
+
+    width: 500px;
+    height: auto;
+    margin-top: 10px;
+
+  }
+
+.theDogImage {
+
+    width: 500px;
+    height: auto;
+    margin-top: 10px;
+
+  }
+
+.memeSize {
+
+    width: 500px;
+    height: auto;
+    margin-top: 10px;
+
+  }
+
+button {
+    margin-top: 10px;
+}
+
+.background-image {
+    background-image: url('https://cdn.discordapp.com/attachments/475885919052890112/890788891995549696/those_birdy.png');
+    filter: blur(8px);
+    -webkit-filter: blur(8px);
+  
+    height: 100%;
+  
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
