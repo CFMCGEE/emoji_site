@@ -101,7 +101,7 @@ class App extends Component {
                         <CatImage catImage={ this.state.catImage } GetCatImage={ this.GetCatImage } />
 
                     </Route>
-                    <Route path="/randomdogimage">
+                    <Route path="https://cfmcgee.github.io/randomdogimage">
 
                         <DogImage dogImage={ this.state.dogImage } GetDogImage={ this.GetDogImage }/>
                             
