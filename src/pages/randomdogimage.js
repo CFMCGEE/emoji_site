@@ -7,7 +7,7 @@ const DogImage = ({ dogImage, GetDogImage }) => {
 
             <h2> Dog Image Generator </h2>
            
-            <Button variant="primary" onClick={GetDogImage}>Press for doggies</Button>
+            <Button variant="primary" onClick={GetDogImage}>Press for a doggy</Button>
 
             <div> { dogImage !== '' ? <img className="theDogImage" src={ dogImage } alt="doggydog"  /> : '' } </div> 
 
